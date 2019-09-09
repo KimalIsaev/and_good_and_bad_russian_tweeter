@@ -8,8 +8,9 @@ from pathlib import PurePath
 import os
 
 base_path = os.path.abspath('')
-
-len_of_each_dataset = 50000
+processed_dataset_directory = PurePath(base_path, 'processed_dataset')
+os.mkdir(processed_dataset_directory)
+len_of_each_dataset = 1000
 dataset_directory = PurePath(base_path, 'initial_dataset')
 trained_models_directiory = PurePath(base_path, 'borrowed_model')
 
@@ -31,7 +32,7 @@ pos_text_filename = "pos_text_vecs_nonconst_len"
 neg_text_filename = "neg_text_vecs_nonconst_len"
 pos_emoji_filename = "pos_emoji_vecs_nonconst_len"
 neg_emoji_filename = "neg_emoji_vecs_nonconst_len"
-processed_dataset_directory = PurePath(base_path, 'processed_dataset')
+
 
 with open(PurePath(processed_dataset_directory, pos_text_filename), 'wb') as pos_outfile:
     pickle.dump(pos_text_vectors, pos_outfile)
