@@ -44,14 +44,14 @@
 
 <a id="orgb285c78"></a>
 
-### Проект [rusvectores](https://rusvectores.org/ru/) (borrowed<sub>model</sub>/rusvectores<sub>180.zip</sub>)
+### Проект [rusvectores](https://rusvectores.org/ru/) (borrowed_model/rusvectores_180.zip)
 
-И соответствующий [скрипт](https://github.com/akutuzov/webvectors/blob/master/preprocessing/rus_preprocessing_udpipe.py) (rusvectores<sub>script</sub>/rus<sub>preprocessing</sub><sub>udpipe.py</sub>) Татьяны Шавриной
+И соответствующий [скрипт](https://github.com/akutuzov/webvectors/blob/master/preprocessing/rus_preprocessing_udpipe.py) (rusvectores_script/rus_preprocessing_udpipe.py) Татьяны Шавриной
 
 
 <a id="org4176145"></a>
 
-### Проект [Юлии Рубцовой](https://study.mokoron.com/) (initial<sub>dataset</sub>)
+### Проект [Юлии Рубцовой](https://study.mokoron.com/) (initial_dataset)
 
 по собиранию и классифицированию русских твитов 
 <https://elibrary.ru/item.asp?id=20399632>
@@ -59,7 +59,7 @@
 
 <a id="org87aa4b3"></a>
 
-### Проект[ Emoji2Vec](https://github.com/uclmr/emoji2vec) (borrowed<sub>model</sub>/emoji2vec.bin)
+### Проект[ Emoji2Vec](https://github.com/uclmr/emoji2vec) (borrowed_model/emoji2vec.bin)
 
 
 <a id="org199d25d"></a>
